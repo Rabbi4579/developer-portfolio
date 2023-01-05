@@ -197,7 +197,7 @@ nav li {
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 15px;
-    
+
 }
 
 .resume_description {
@@ -213,11 +213,53 @@ nav li {
     font-size: 30px;
     margin-bottom: 20px;
 }
-.resume_item hr{
+
+.resume_item hr {
     color: #D1D1D1;
     margin: 25px 0;
 }
-.resume_btn{
+
+.resume_btn {
     text-align: center;
     margin-top: 50px;
+}
+
+/* contact part styles */
+
+.contact {
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 100px;
+    gap: 250px;
+}
+
+.contact_description {
+    margin-bottom: 20px;
+    color: #474747;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.contact a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.contact .section_title {
+    text-align: left;
+}
+
+.contact input[type='text'],
+[type='email'],
+textarea {
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 10px 20px;
+    resize: none;
+
+}
+
+.contact input {
+    height: 40px;
 }
